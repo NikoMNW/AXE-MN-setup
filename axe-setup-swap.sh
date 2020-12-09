@@ -176,16 +176,16 @@ fi
 
 #Installing Daemon
  cd ~
-wget https://github.com/AXErunners/axe/releases/download/v1.4.1/axecore-1.4.1-x86_64-linux-gnu.tar.gz
-tar -xzf axecore-1.4.1-x86_64-linux-gnu.tar.gz -C ~/AXE-MN-setup
-rm -rf axecore-1.4.1-x86_64-linux-gnu.tar.gz
+wget https://github.com/AXErunners/axe/releases/download/v1.6.1.1/axecore-1.6.1.1-x86_64-linux-gnu.tar.gz
+tar -xzf axecore-1.6.1.1-x86_64-linux-gnu.tar.gz -C ~/AXE-MN-setup
+rm -rf axecore-1.6.1.1-x86_64-linux-gnu.tar.gz
 
 stop_daemon
  
  # Deploy binaries to /usr/bin
- sudo rm ~/AXE-MN-setup/axecore-1.4.1/bin/axe-qt
- sudo rm ~/AXE-MN-setup/axecore-1.4.1/bin/test*
- sudo cp ~/AXE-MN-setup/axecore-1.4.1/bin/axe* /usr/bin/
+ sudo rm ~/AXE-MN-setup/axecore-1.6.1.1/bin/axe-qt
+ sudo rm ~/AXE-MN-setup/axecore-1.6.1.1/bin/test*
+ sudo cp ~/AXE-MN-setup/axecore-1.6.1.1/bin/axe* /usr/bin/
  sudo chmod 755 -R ~/AXE-MN-setup
  sudo chmod 755 /usr/bin/axe*
  
