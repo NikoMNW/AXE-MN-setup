@@ -1,4 +1,4 @@
-# AXE-MN-setup UBUNTU 16.04 ONLY!! V1.4.1 DIP003 enabled
+# AXE-MN-setup UBUNTU 16.04 ONLY!! V1.6.1.1 DIP003 enabled
 <br>
 <li>sudo apt-get update
 <li>sudo apt-get install git
